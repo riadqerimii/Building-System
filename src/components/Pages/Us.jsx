@@ -18,7 +18,7 @@ function Us() {
               <br /> - honesty, integrity, professional advice and quality
               craftmanship.
             </h5>
-            <Col>
+            <Col xs={12} className="btn-col">
               <button className="btn-about  ">About Us</button>
             </Col>
           </Col>

@@ -12,7 +12,7 @@ function CustomNavbar() {
           GM
         </Navbar.Brand>
         <Navbar.Toggle
-          className="bg-white"
+          className="bg-white bg-toggler "
           aria-controls="responsive-navbar-nav nav-w"
         />
         <Navbar.Collapse id="responsive-navbar-nav" className=" nav-toggler">
