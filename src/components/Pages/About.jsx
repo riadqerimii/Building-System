@@ -3,6 +3,7 @@ import Aboutone from "./Img/Hero-1.jpg";
 import History from "./History";
 import OurPeople from "./OurPeople";
 import Commpany from "../Commpany";
+import ButtonFixed from "./ButtonFixed";
 
 function About() {
   return (
@@ -16,6 +17,7 @@ function About() {
       </header>
       <History />
       <OurPeople />
+      <ButtonFixed />
       <Commpany />
     </section>
   );

@@ -2,6 +2,7 @@ import Call from "../Call";
 import contactone from "./Img/Hero-1.jpg";
 import Map from "./Map";
 import Footer from "./Footer";
+import ButtonFixed from "./ButtonFixed";
 function Contact() {
   return (
     <section>
@@ -17,6 +18,7 @@ function Contact() {
           </h1>
         </div>
       </header>
+      <ButtonFixed />
       <Map />
       <Call />
       <Footer />

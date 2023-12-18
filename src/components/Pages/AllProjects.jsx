@@ -18,27 +18,43 @@ function AllProjects() {
     <section>
       <Container className="p-5">
         <Row className="p-5 text-center my-items">
-          <Col className="tab-1" md={3} sm={12} onClick={() => showTab("All")}>
+          <Col
+            className={`tab-1 ${display === "All" ? "active-link" : ""}`}
+            md={3}
+            sm={12}
+            onClick={() => showTab("All")}
+          >
             ALL
           </Col>
-          <Col className="tab-2" md={3} sm={12} onClick={() => showTab("Jobs")}>
+          <Col
+            className={`tab-2 ${display === "Jobs" ? "active-link" : ""}`}
+            md={3}
+            sm={12}
+            onClick={() => showTab("Jobs")}
+          >
             JOB
           </Col>
           <Col
-            className="tab-3"
+            className={`tab-3 ${display === "Project" ? "active-link" : ""}`}
             md={3}
             sm={12}
             onClick={() => showTab("Project")}
           >
             PROJECT
           </Col>
-          <Col className="tab-3" md={3} sm={12} onClick={() => showTab("New")}>
+          <Col
+            className={`tab-4 ${display === "New" ? "active-link" : ""}`}
+            md={3}
+            sm={12}
+            onClick={() => showTab("New")}
+          >
             New
           </Col>
         </Row>
-        <Row className="flex-row">
+
+        <Row>
           {items.map((item, index) => (
-            <Col key={index} md={4} className="d-flex">
+            <Col key={index} xl={4} md={6} sm={12}>
               <Card className="rounded-0 border-0 allCard">
                 <Card.Img
                   style={{

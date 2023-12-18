@@ -10,6 +10,7 @@ import Cards from "./Cards";
 import SelectedProjects from "./SelectedProjects";
 import Disscus from "./Disscus";
 import Footer from "./Footer";
+import ButtonFixed from "./ButtonFixed";
 function Home() {
   return (
     <section className="home">
@@ -43,6 +44,7 @@ function Home() {
       </Container>
       <Us />
       <Cards />
+      <ButtonFixed />
       <SelectedProjects />
       <Disscus />
       <Footer />

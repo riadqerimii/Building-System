@@ -1,4 +1,5 @@
 import AllProjects from "./AllProjects";
+import ButtonFixed from "./ButtonFixed";
 import projectsone from "./Img/Hero-3.jpg";
 
 function Projects() {
@@ -10,6 +11,7 @@ function Projects() {
           <h1>Projects</h1>
         </div>
       </header>
+      <ButtonFixed />
       <AllProjects />
     </section>
   );

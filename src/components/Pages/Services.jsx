@@ -5,6 +5,7 @@ import servicesimg1 from "./Img/Card 3.jpg";
 import serviceimg2 from "./Img/Hero-2.jpg";
 import Disscus from "./Disscus";
 import Footer from "./Footer";
+import ButtonFixed from "./ButtonFixed";
 
 function Services() {
   return (
@@ -97,6 +98,7 @@ function Services() {
           </Col>
         </Row>
       </Container>
+      <ButtonFixed />
       <Disscus />
       <Footer />
     </section>

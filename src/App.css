@@ -13,6 +13,7 @@ body {
   --main-red: #c72c40;
   --main-blue: #45567d;
   --main-gray: #353b43;
+  --main-black: #141414;
 }
 :root {
   scroll-behavior: smooth;
@@ -35,6 +36,23 @@ h6,
   font-weight: 400;
   color: inherit;
 }
+
+.fixed-button {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.307) !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 0.423);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50% !important;
+  transition: 0.5s;
+}
+.fixed-button:hover {
+  background-color: var(--main-black) !important;
+}
+
 /* NavBar */
 .nav-items {
   color: var(--main-gray);
@@ -86,7 +104,7 @@ h6,
     display: block !important;
   }
   .border {
-    border: 1px solid white!;
+    border: 1px solid var(--main-white);
   }
 
   .project-btn {
@@ -153,7 +171,7 @@ h6,
   color: red;
 }
 .span-music {
-  color: #f0f0f0;
+  color: var(--main-white);
   padding: 5px;
   font-size: 1.2rem;
   transition: 0.6s all;
@@ -193,7 +211,7 @@ h6,
 /* us */
 
 .text-worker {
-  color: white;
+  color: var(--main-white);
   display: grid;
   justify-content: center !important;
 }
@@ -232,7 +250,7 @@ h6,
   margin: 10px;
   border: 1px solid #fff;
   background-color: transparent;
-  color: #f0f0f0;
+  color: var(--main-white);
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -391,8 +409,8 @@ h6,
   padding: 4px 14px;
   border: none;
   font-size: 15px;
-  background-color: #ffffff;
-  color: #000408;
+  background-color: var(--main-white);
+  color: var(--main-gray);
 }
 /* selected projects */
 .btn-card a {
@@ -411,7 +429,7 @@ h6,
 }
 /* disc */
 .bg-disc {
-  background-color: #000408e8;
+  background-color: var(--main-black);
 }
 
 /* footer */
@@ -429,7 +447,7 @@ h6,
 }
 /* Page Services */
 .section-services {
-  background-color: #f5f5f6;
+  background-color: var(--main-white);
 }
 
 .services {
@@ -493,32 +511,27 @@ h6,
 /* all projects */
 
 .my-items {
-  color: #000408;
+  color: var(--main-black);
   font-size: 1.5rem;
   cursor: pointer;
 }
-.tab-1 {
-  border-radius: 5px;
+
+.active-link {
+  background-color: var(--main-black);
+  color: aliceblue;
+}
+
+.tab-2:hover {
+  background-color: #353b43;
+}
+
+.tab-3:hover {
+  background-color: #353b43;
 }
 .tab-1:hover {
   background-color: #353b43;
 }
 
-.tab-2 {
-  border-radius: 5px;
-}
-.tab-2:hover {
-  background-color: #353b43;
-}
-.tab-3 {
-  border-radius: 5px;
-}
-.tab-3:hover {
-  background-color: #353b43;
-}
-.tab-4 {
-  border-radius: 5px;
-}
 .tab-4:hover {
   background-color: #353b43;
 }
