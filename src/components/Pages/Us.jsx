@@ -19,7 +19,7 @@ function Us() {
               craftmanship.
             </h5>
             <Col>
-              <button className="btn-about ">About Us</button>
+              <button className="btn-about  ">About Us</button>
             </Col>
           </Col>
           <Col sm={6} xs={12} className="img-worker text-end p-0 ">
