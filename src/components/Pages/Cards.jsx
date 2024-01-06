@@ -19,7 +19,7 @@ function Cards() {
             <div className="card-text">
               <h1>Construction</h1>
               <button className="card-btn  rounded-0 ">
-                <a href="/" className="text-dark">
+                <a href="/services" className="text-dark">
                   Learn More
                 </a>
               </button>
@@ -34,7 +34,7 @@ function Cards() {
             <div className="card-text-2">
               <h1>Timber System</h1>
               <button className=" card-btn rounded-0 ">
-                <a href="/" className="text-dark">
+                <a href="/services" className="text-dark">
                   Learn More
                 </a>
               </button>
@@ -45,7 +45,7 @@ function Cards() {
             <div className="card-text-3">
               <h1>Haulage</h1>
               <button className="card-btn   rounded-0 ">
-                <a href="/" className="text-dark">
+                <a href="/services" className="text-dark">
                   Learn More
                 </a>
               </button>
@@ -56,7 +56,7 @@ function Cards() {
             <div className="card-text-4">
               <h1>Timber System</h1>
               <button className="card-btn   rounded-0">
-                <a href="/" className="text-dark">
+                <a href="/services" className="text-dark">
                   Learn More
                 </a>
               </button>

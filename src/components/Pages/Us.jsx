@@ -19,7 +19,9 @@ function Us() {
               craftmanship.
             </h5>
             <Col xs={12} className="btn-col">
-              <button className="btn-about  ">About Us</button>
+              <a href="/about" className="btn-about">
+                About Us
+              </a>
             </Col>
           </Col>
           <Col sm={6} xs={12} className="img-worker text-end p-0 ">
