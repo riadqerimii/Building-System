@@ -6,13 +6,13 @@ import { FiPhone } from "react-icons/fi";
 import { BiMessage } from "react-icons/bi";
 function CustomNavbar() {
   return (
-    <Navbar className="background p-5" expand="lg">
-      <Container className="container">
+    <Navbar className="background " expand="lg">
+      <Container className="container ">
         <Navbar.Brand className="icon" href="/">
           GM
         </Navbar.Brand>
         <Navbar.Toggle
-          className="bg-white bg-toggler "
+          className="bg-toggler  "
           aria-controls="responsive-navbar-nav nav-w"
         />
         <Navbar.Collapse id="responsive-navbar-nav" className=" nav-toggler">

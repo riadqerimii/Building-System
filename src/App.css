@@ -124,6 +124,12 @@ h6,
   font-size: 40px !important;
   font-family: "Poppins", "Inter", sans-serif;
 }
+.bg-toggler {
+  background-color: #88888800 !important;
+  padding: 0;
+  width: 60px;
+}
+
 /* hero home */
 .images {
   height: 100vh;
